@@ -63,7 +63,7 @@ jobs:
         CF_SPACE_2: ${{ secrets.CF_SPACE_2 || 'dev' }}
         CF_APPS_2: ${{ secrets.CF_APPS_2 }}
         # --------------------------
-        # Telegram 配置（如果需要通知，保留）
+        # Telegram 配置（如果需要知，保留）
         # --------------------------
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
