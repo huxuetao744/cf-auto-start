@@ -8,7 +8,7 @@ import asyncio  # 新增：导入异步库
 # 仅保留必需的导入
 from telegram import Bot
 
-# 从环境变量读取CF配置
+# 从环境变量读取C配置
 def get_config():
     return [
         {
